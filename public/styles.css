@@ -23,14 +23,11 @@
 
 .header__logo {
     margin: 0 auto;
-    align-content: center;
 }
 
 .header__nav {
     margin: 0 10px;
 }
-
-
 
 .accordion {
     font-size: 1.2em;
@@ -57,7 +54,6 @@
     width: 100%;
     outline: none;
     border: none;
-    border-radius: 6px;
     background-color: rgb(69, 69, 69);
 }
 .menu li a {
@@ -89,22 +85,18 @@
 }
 
 .authors-collection {
-    display: flex;
     padding: 10px;
 }
 
 .music-collection {
-    display: block;
     padding: 10px;
 }
 
 .playlist-collection {
-    display: block;
     padding: 10px;
 }
 
 .header-music {
-    height: auto;
     margin-bottom: 5px;
 }
 
@@ -115,7 +107,6 @@
 }
 
 .element {
-    width: 100%;
     display: flex;
     margin-top: 10px;
     align-items: center;
@@ -146,7 +137,7 @@
 
 .copyrite {
     margin: 0px 10px;
-    font-size: 1.3em;
+    font-size: 1.1em;
     color: white;
 }
 
