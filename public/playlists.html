@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="stylesheet" href="./styles.css">
+    <title>React App</title>
+  </head>
+  <body class="app">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    
+    <header class="header">
+      <a href="./index.html" class="header__logo link" href="/">
+          <img src="./content/spotify-logo.svg" alt="Лого" width="128" height="128" />
+      </a>
+      <nav class="header__nav">
+          <img src="./content/menu.PNG" alt="Меню" width="32" height="32" />
+          <div class="dropdown__menu">
+              <a href="">Регистрация</a>
+              <a href="">Войти</a>
+          </div>
+      </nav>
+  </header>
+  <aside class="accordion">
+    <div class="menu">
+      <li class="search_box">
+        <input type="search" placeholder="Search...">
+      </li>
+      <ul class="menu__bar">
+        <li class="nav-link">
+          <a href="./music.html">Моя музыка</a>
+        </li>
+        <li class="nav-link">
+          <a href="./playlists.html">Плейлисты</a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+  <main class="content">
+     <div class="playlist-collection">
+         <h2 class="header-playlist">Сохраненные плейлисты</h2>
+         
+     </div>
+  </main>
+  <footer class="footer">
+      <div class="copyrite">
+          <p>&copy; Front-End School 2022</p>
+      </div>
+      <div class="footer__menu">
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+          <a href="#">Privacity</a>
+      </div>
+  </footer>
+  </body>
+</html>
